@@ -1,5 +1,6 @@
 .logo{
-   width: 120px; 
+    margin-top: 10px;
+    width: 120px; 
 }
 .logo3{
     width: 100%;
@@ -128,6 +129,7 @@ html{
 }
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 232);
 }
 .editor .editorcontent{
   padding: 20px 20px;
