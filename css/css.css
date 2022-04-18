@@ -10,7 +10,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#openingcontent, #round1content{
+#openingcontent, #round1content, #round2content{
     color: white;
     text-align: center;
     padding-left: 30px;
@@ -58,14 +58,53 @@
     margin-top: 10px;
 }
 .introduction{
-    margin: 20px 0 20px 0;
+    margin: 50px 0 20px 0;
 }
 .introduction .container{
     margin-top:20px ;
     margin-bottom: 20px;
 }
 .introduction img{
-    width: 350px;
+    width: 400px;
+}
+.introduction2{
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.introduction2 .col-md-4{
+    margin-top: 20px;
+}
+.imgbox{
+    overflow:hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.imgbox img{
+    width: 100%;
+    display: block;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+}
+.imgbox img:hover{
+    transform:scale(1.15,1.15);
+}
+.centered {
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    transition: .3s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgbox:hover .centered{
+    opacity: 1;
+}
+.spacer{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .groupintro .container{
     margin-top: 20px;
